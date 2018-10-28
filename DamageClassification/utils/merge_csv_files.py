@@ -61,5 +61,5 @@ with open(data_merged_path, 'w', newline='') as dmp:
 
         writer.writerow({'visit': visit, 'damage': damage, 'feature': feature})
 
-print('well done')
+print('Successfully merged two files')
 
